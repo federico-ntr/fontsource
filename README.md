@@ -2,51 +2,65 @@
 
 [![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![codecov](https://codecov.io/gh/fontsource/fontsource/branch/main/graph/badge.svg?token=QEJJF3SE62)](https://codecov.io/gh/fontsource/fontsource) [![Monthly Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmaster%2Fdata%2FbadgeMonth.json)](https://github.com/fontsource/download-stat-aggregator) [![Total Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmaster%2Fdata%2FbadgeTotal.json)](https://github.com/fontsource/download-stat-aggregator) [![License](https://badgen.net/badge/license/MIT/green)](https://github.com/fontsource/fontsource/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/fontsource/fontsource.svg?style=social&label=Star)](https://github.com/fontsource/fontsource/stargazers)
 
-An updating monorepo full of self-hostable Open Source fonts bundled into individual NPM packages!
+Un monorepo in aggiornamento ricco di font self-hostable Open Source, raccolti in pacchetti NPM individuali!
 
-Our full documentation and search directory can be found [here](https://fontsource.org/).
-[https://fontsource.org/](https://fontsource.org/)
+La nostra documentazione completa può essere trovata [qui](https://fontsource.org/).
 
-Alternatively, you can see the list of supported fonts in Markdown format [here](https://github.com/fontsource/fontsource/blob/main/FONTLIST.md).
+In alternativa puoi vedere la lista dei font supportati in formato Markdown
+[qui](https://github.com/fontsource/fontsource/blob/main/FONTLIST.md).
 
-##
+---
 
-- Self-hosting brings **significant performance gains** as loading fonts from hosted services, such as Google Fonts, lead to an extra (render blocking) network request. To provide perspective, for simple websites it has been seen to _double_ visual load times.
-  Benchmarks can be found [here](https://github.com/HTTPArchive/almanac.httparchive.org/pull/607) and [here](https://github.com/reactiflux/reactiflux.com/pull/21).
+- Il self-hosting porta **guadagni di performance significativi** visto che caricare i font da servizi esterni, come
+Google Fonts, porta a richieste aggiuntive (render blocking). Per dare una prospettiva, in siti semplici si è visto che
+_raddoppia_ i tempi di caricamento visuale.
+  I benchmark si trovano [qui](https://github.com/HTTPArchive/almanac.httparchive.org/pull/607) e
+  [qui](https://github.com/reactiflux/reactiflux.com/pull/21).
 
-- Fonts remain **version locked**. Google often pushes updates to their fonts [without notice](https://github.com/google/fonts/issues/1307), which may interfere with your live production projects. Manage your fonts like any other NPM dependency.
+- I font rimangono **version locked**. Google aggiorna spesso i font
+[senza preavviso](https://github.com/google/fonts/issues/1307), cosa che può interferire con il tuo ambiente di
+produzione. Così invece puoi gestire i tuoi font come faresti con una normale dipendenza NPM.
 
-- Commit to **privacy**. Google does track the usage of their fonts and for those who are extremely privacy concerned, self-hosting is an alternative.
+- **Privacy**. Google traccia l'utilizzo dei loro font. Usare Google Fonts **NON** è GDPR-compliant. Questa soluzione
+sì.
 
-- Your **fonts load offline**. On top of benefiting PWAs, often there may be situations, like working in an airplane or train, leaving you stranded without access to your online hosted fonts. Have the ability to keep working under any circumstance.
+- I font vengono **caricati offline**. Oltre a beneficiarne le PWA, possono esserci altre situazioni, ad esempio
+lavoro da remoto, come in aereo o in treno, dove la mancanza di connessione affidabile può impedire il caricamento dei
+font.
 
-- **Support for fonts outside the Google Font ecosystem**. This repository is constantly evolving with [other Open Source fonts](https://github.com/fontsource/fontsource/blob/main/FONTLIST.md). Feel free to contribute!
+- **Supporto per font esterni a Google Font**. Questo repository si evolve costantemente con
+[altri font Open Source](https://github.com/fontsource/fontsource/blob/main/FONTLIST.md). Sentiti libero di contribuire.
 
 ## API
 
-Check out the documentation [here](https://fontsource.org/docs/api/introduction).
+Controlla la documentazione [qui](https://fontsource.org/docs/api/introduction).
 
-## Migrating from previous versions
+## Migrare da versioni precedenti
 
-See [CHANGELOG.md](https://github.com/fontsource/fontsource/blob/main/CHANGELOG.md) for more details.
+Vedi [CHANGELOG.md](https://github.com/fontsource/fontsource/blob/main/CHANGELOG.md) per maggiori dettagli.
 
-## Adding New Fonts
+## Aggiungere nuovi font
 
-For Open Source fonts that are not automatically updated by the Google ecosystem, we have a generic packager that builds CSS files for the project.
+Per i font Open Source che non sono automaticamente aggiornati dall'ecosistema Google, abbiamo un packager generico che
+costruisce file CSS pronti per il progetto.
 
-Make a request by creating an [issue](https://github.com/fontsource/fontsource/issues)!
-If you wish to submit a PR yourself, check out the documentation on packaging the fonts yourself [here](https://github.com/fontsource/fontsource/blob/main/scripts/generic/README.md).
+Fai una richiesta creando una [issue](https://github.com/fontsource/fontsource/issues)!
+Se vuoi fare una PR, controlla la documentazione per sapere come impacchettare i font da solo
+[qui](https://github.com/fontsource/fontsource/blob/main/scripts/generic/README.md).
 
 ## Licensing
 
-It is important to always read the license for every font that you use.
-Most of the fonts in the collection use the SIL Open Font License, v1.1. Some fonts use the Apache 2 license. The Ubuntu fonts use the Ubuntu Font License v1.0.
+È importante leggere sempre la licenza di ogni font utilizzato.
+La maggior parte dei font in questa collezione usa la SIL Open Font Licenze, v1.1. Alcuni font la licenza Apache 2. I
+font di Ubuntu usano la licenza Ubuntu Font v1.0.
 
-You can find their specific licenses on each package `README.md`.
+Puoi trovare la licenza specifica nel `README.md` di ogni pacchetto.
 
-## Other Notes
+## Altre note
 
-Feel free to star and contribute new ideas to this repository that aim to improve the performance of font loading, as well as expanding the existing library we already have. Any suggestions or ideas can be voiced via an [issue](https://github.com/fontsource/fontsource/issues).
+Sentiti libero di mettere una star e di contribuire al repo con nuove idee che vogliano migliorare le performance di
+caricamento del font, oltre ad espandere la libreria esistente. Ogni suggerimento o idea può espresso o espressa
+tramite una [issue](https://github.com/fontsource/fontsource/issues).
 
 ## Community Sponsors
 
