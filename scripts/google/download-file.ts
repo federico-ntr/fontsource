@@ -136,7 +136,10 @@ const variableLinks = (fontId: string): DownloadLinks[] => {
 
   // Temporary change until v5 is released
   const newVariants: FontVariantsVariable = {};
-  newVariants.wghtOnly = fontVariable.variants.wght;
+  // Fonts like ballet or league-gothic don't have a wght axis
+  if (fontVariable.variants.wght)
+    newVariants.wghtOnly = fontVariable.variants.wght;
+
   newVariants.full = fontVariable.variants.full;
 
   const downloadURLPairsVariable = pairGenerator(newVariants);
