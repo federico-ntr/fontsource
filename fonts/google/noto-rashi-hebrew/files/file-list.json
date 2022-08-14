@@ -27,5 +27,9 @@
   "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-hebrew-900-normal.woff2",
   "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-all-900-normal.woff",
   "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-hebrew-variable-wghtOnly-normal.woff2",
-  "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-hebrew-variable-full-normal.woff2"
+  "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-latin-ext-variable-wghtOnly-normal.woff2",
+  "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-latin-variable-wghtOnly-normal.woff2",
+  "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-hebrew-variable-full-normal.woff2",
+  "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-latin-ext-variable-full-normal.woff2",
+  "./fonts/google/noto-rashi-hebrew/files/noto-rashi-hebrew-latin-variable-full-normal.woff2"
 ]

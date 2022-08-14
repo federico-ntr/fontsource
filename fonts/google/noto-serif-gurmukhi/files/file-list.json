@@ -27,5 +27,9 @@
   "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-gurmukhi-900-normal.woff2",
   "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-all-900-normal.woff",
   "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-gurmukhi-variable-wghtOnly-normal.woff2",
-  "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-gurmukhi-variable-full-normal.woff2"
+  "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-latin-ext-variable-wghtOnly-normal.woff2",
+  "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-latin-variable-wghtOnly-normal.woff2",
+  "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-gurmukhi-variable-full-normal.woff2",
+  "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-latin-ext-variable-full-normal.woff2",
+  "./fonts/google/noto-serif-gurmukhi/files/noto-serif-gurmukhi-latin-variable-full-normal.woff2"
 ]
